@@ -1,20 +1,22 @@
 <!-- TOC -->
 
-- [深度学习作业文档](#深度学习作业文档)
-    - [机器翻译](#机器翻译)
-        - [1.transformer](#1transformer)
-            - [模型介绍](#模型介绍)
-            - [运行环境](#运行环境)
-        - [2.seq2seq (Glove)、](#2seq2seq-glove)
-            - [演示视频](#演示视频)
-            - [依赖环境](#依赖环境)
-            - [模型介绍](#模型介绍-1)
-        - [3.Mask-Rcnn](#3mask-rcnn)
-            - [依赖环境](#依赖环境-1)
-            - [项目结构](#项目结构)
-            - [模型介绍](#模型介绍-2)
+- [github：https://github.com/wuhao050698/deep-learning-homework](#githubhttpsgithubcomwuhao050698deep-learning-homework)
+- [深度学习作业文档](#%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%BD%9C%E4%B8%9A%E6%96%87%E6%A1%A3)
+  - [机器翻译](#%E6%9C%BA%E5%99%A8%E7%BF%BB%E8%AF%91)
+    - [1.transformer](#1transformer)
+      - [模型介绍](#%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D)
+      - [运行环境](#%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83)
+    - [2.seq2seq (Glove)](#2seq2seq-glove)
+      - [演示视频](#%E6%BC%94%E7%A4%BA%E8%A7%86%E9%A2%91)
+      - [依赖环境](#%E4%BE%9D%E8%B5%96%E7%8E%AF%E5%A2%83)
+      - [模型介绍](#%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D-1)
+    - [3.Mask-Rcnn](#3mask-rcnn)
+      - [依赖环境](#%E4%BE%9D%E8%B5%96%E7%8E%AF%E5%A2%83-1)
+      - [项目结构](#%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84)
+      - [模型介绍](#%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D-2)
 
 <!-- /TOC -->
+# github：https://github.com/wuhao050698/deep-learning-homework
 # 深度学习作业文档
 ## 机器翻译
 word2vec简单笔记(https://github.com/wuhao050698/ml-note/blob/master/word2vec.md)
@@ -50,7 +52,7 @@ transformer不同于机器翻译常用的Seq2seq+attention模型，它是一种*
 ![](6.png)
 
 最后的训练的准确率达到了90%+，loss也基本上收敛了，效果很好，但是由于限制了10个词的长度，演示效果很差，所以后来又训练了一个简单的seq2seq模型用于界面展示。
-### 2.seq2seq (Glove)、
+### 2.seq2seq (Glove)
 #### 演示视频
 https://www.bilibili.com/video/av50130062/
 #### 依赖环境
@@ -79,6 +81,7 @@ pyhton| 3.6.8
 keras| 2.0.8
 tensorflow| 1.10.0
 CV2|-
+输入:视频
 #### 项目结构
 - main.py
   - 对输入的视频逐帧进行语义分割
@@ -89,3 +92,8 @@ CV2|-
 #### 模型介绍
 模型介绍:https://blog.csdn.net/jiongnima/article/details/79094159
 ![](8.png)
+
+数据集格式:
+![](9.png)
+结果样例（学校食堂门口）
+![](10.png)

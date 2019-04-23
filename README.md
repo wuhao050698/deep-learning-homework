@@ -17,6 +17,8 @@
 
 <!-- /TOC -->
 # github：https://github.com/wuhao050698/deep-learning-homework
+百度网盘model&data: 链接: https://pan.baidu.com/s/1svUtiL6UCLT7tXL04Hz41g 提取码: vmrp 
+coco数据集 链接: https://pan.baidu.com/s/1sEaX0JXbHg2nJ_GO5ZNxgw 提取码: rjzk
 # 深度学习作业文档
 ## 机器翻译
 word2vec简单笔记(https://github.com/wuhao050698/ml-note/blob/master/word2vec.md)
